@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EXERCICES</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="MAPAGE.CSS">
+</head>
+<body>
+	<header class="hea">
+		<h1>Les équations</h1>
+
+			
+
+			<ul class="ac">
+			<li class="ho"><a class="lien1" href="index.HTML">Home</a></li>
+			<li class="ho">
+
+				<a class="lien1" href="#">Cours</a>
+				<ul class="cour">
+					<li><a href="1er.html">Équations au 1er Degré</a></li>
+					<li><a href="2eme.html">Équations au 2eme Degré</a></li>
+					<li><a href="2innc.html">Équations à 2 inconnues</a></li>
+				</ul>
+
+			</li>
+
+
+			<li class="ho"><a class="lien1" href="#">Exercices</a>
+				<ul class="cour">
+					<li><a href="1ex.html">Équations au 1er Degré</a></li>
+					<li><a href="2ex.html">Équations au 2eme Degré</a></li>
+					<li><a href="3ex.html">Équations à 2 inconnues</a></li>
+				</ul>
+			</li>
+
+			<li class="ho"><a class="lien1" href="#">Contact</a>
+			<ul class="cour">
+					<li><a href="https://www.facebook.com/">FACEBBOK</a></li>
+					<li><a href="https://www.instagram.com/">INSTAGRAM</a></li>
+					<li><a href="https://www.youtube.com/">YOUTUBE</a></li>
+				</ul>
+			</li>
+		</ul>
+
+	</header><br><br><br><br>
+	<h1 style="color:#73264d;text-align: center;">Exercices:</h1><br><br><br><br>
+	<form>
+	2x+3y=45<br>x=y<br><input type="text" id="eq1"><input type="button" onclick="ee1()"  value="correction"  style="background-color: #9999ff" ><p id="e1"></p><br>
+	5x+2y=19<br>4x+9y=30<br><input type="text" id="eq2"><input type="button" onclick="ee2()" value="correction"  style="background-color: #9999ff" ><p id="e2"></p><br>
+	3x + y = 5<br>5x+2y=9<br><input type="text" id="eq3"><input type="button" onclick="ee3()" value="correction"  style="background-color: #9999ff" ><p id="e3"></p><br>
+	2x + 8y = 18<br>5x + 2y =18<br><input type="text" id="eq4"><input type="button" onclick="ee4()" value="correction"  style="background-color: #9999ff" ><p id="e4"></p><br>
+	3x +11y=87<br>7x+5y=79<br><input type="text" id="eq5"><input type="button" onclick="ee5()" value="correction"  style="background-color: #9999ff" ><p id="e5"></p><br>
+	5x +20y=65<br>x +8y=28<br><input type="text" id="eq6"><input type="button" onclick="ee6()" value="correction"  style="background-color: #9999ff" ><p id="e6"></p><br>
+	    </form>
+	    <div class="fix">Realiser par:chaimae bouyarmane</div>
+	    <script type="text/javascript">
+	    	function ee1()
+    	{
+    		if (document.getElementById('eq1').value=="9;9")
+    			document.getElementById('e1').innerHTML="correcte";
+    		else
+    			document.getElementById('e1').innerHTML="fausse la reponse correcte est 9;9";
+    	}
+    	function ee2()
+    	{
+    		if (document.getElementById('eq2').value=="3;2")
+    			document.getElementById('e2').innerHTML="correcte";
+    		else
+    			document.getElementById('e2').innerHTML="fausse la reponse correcte est 3;2";
+    	}
+    	function ee3()
+    	{
+    		if (document.getElementById('eq3').value=="1;2")
+    			document.getElementById('e3').innerHTML="correcte";
+    		else
+    			document.getElementById('e3').innerHTML="fausse la reponse correcte est 1;2";
+    	}
+    	function ee4()
+    	{
+    		if (document.getElementById('eq4').value=="3;1,5")
+    			document.getElementById('e4').innerHTML="correcte";
+    		else
+    			document.getElementById('e4').innerHTML="fausse la reponse correcte est 3;1,5";
+    	}
+    	function ee5()
+    	{
+    		if (document.getElementById('eq5').value=="7;6")
+    			document.getElementById('e5').innerHTML="correcte";
+    		else
+    			document.getElementById('e5').innerHTML="fausse la reponse correcte est 7;6";
+    	}
+    	function ee6()
+    	{
+    		if (document.getElementById('eq6').value=="1;3")
+    			document.getElementById('e6').innerHTML="correcte";
+    		else
+    			document.getElementById('e6').innerHTML="fausse la reponse correcte est 1;3";
+    	}
+	    </script>
+
+</body>
+</html>

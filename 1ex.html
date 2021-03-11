@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EXERCICES</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="MAPAGE.CSS">
+</head>
+<body>
+	<header class="hea">
+		<h1>Les équations</h1>
+
+			
+
+			<ul class="ac">
+			<li class="ho"><a class="lien1" href="index.HTML">Home</a></li>
+			<li class="ho">
+
+				<a class="lien1" href="#">Cours</a>
+				<ul class="cour">
+					<li><a href="1er.html">Équations au 1er Degré</a></li>
+					<li><a href="2eme.html">Équations au 2eme Degré</a></li>
+					<li><a href="2innc.html">Équations à 2 inconnues</a></li>
+				</ul>
+
+			</li>
+
+
+			<li class="ho"><a class="lien1" href="#">Exercices</a>
+				<ul class="cour">
+					<li><a href="1ex.html">Équations au 1er Degré</a></li>
+					<li><a href="2ex.html">Équations au 2eme Degré</a></li>
+					<li><a href="3ex.html">Équations à 2 inconnues</a></li>
+				</ul>
+			</li>
+
+			<li class="ho"><a class="lien1" href="#">Contact</a>
+			<ul class="cour">
+					<li><a href="https://www.facebook.com/">FACEBBOK</a></li>
+					<li><a href="https://www.instagram.com/">INSTAGRAM</a></li>
+					<li><a href="https://www.youtube.com/">YOUTUBE</a></li>
+				</ul>
+			</li>
+		</ul>
+
+	</header><br><br><br><br>
+	<h1 style="color:#73264d;text-align: center;">Exercices:</h1><br><br><br><br>
+	
+	<form>
+	3x=12  <input type="text" id="eq1"><input type="button" onclick="ee1()"  value="correction"  style="background-color: #9999ff" ><p id="e1"></p><br>
+	3x+2=8  <input type="text" id="eq2"><input type="button" onclick="ee2()" value="correction"  style="background-color: #9999ff" ><p id="e2"></p><br>
+	2x=54  <input type="text" id="eq3"><input type="button" onclick="ee3()" value="correction"  style="background-color: #9999ff" ><p id="e3"></p><br>
+	(5/6)x=5  <input type="text" id="eq4"><input type="button" onclick="ee4()" value="correction"  style="background-color: #9999ff" ><p id="e4"></p><br>
+	x-7=14  <input type="text" id="eq5"><input type="button" onclick="ee5()" value="correction"  style="background-color: #9999ff" ><p id="e5"></p><br>
+	3x-4x=12  <input type="text" id="eq6"><input type="button" onclick="ee6()" value="correction"  style="background-color: #9999ff" ><p id="e6"></p><br>
+	2x+2=56  <input type="text" id="eq7"><input type="button" onclick="ee7()" value="correction"  style="background-color: #9999ff" ><p id="e7"></p><br>
+	5x-7=43  <input type="text" id="eq8"><input type="button" onclick="ee8()" value="correction"  style="background-color: #9999ff" ><p id="e8"></p><br>
+	9x+18=0  <input type="text" id="eq9"><input type="button" onclick="ee9()" value="correction"  style="background-color: #9999ff" ><p id="e9"></p><br>
+
+    </form>
+    <div class="fix">Realiser par:chaimae bouyarmane</div>
+    <script type="text/javascript">
+    	function ee1()
+    	{
+    		if (document.getElementById('eq1').value==4)
+    			document.getElementById('e1').innerHTML="correcte";
+    		else
+    			document.getElementById('e1').innerHTML="fausse la reponse correcte est 4";
+    	}
+    	function ee2()
+    	{
+    		if (document.getElementById('eq2').value==2)
+    			document.getElementById('e2').innerHTML="correcte";
+    		else
+    			document.getElementById('e2').innerHTML="fausse la reponse correcte est 2";
+    	}
+    	function ee3()
+    	{
+    		if (document.getElementById('eq3').value==27)
+    			document.getElementById('e3').innerHTML="correcte";
+    		else
+    			document.getElementById('e3').innerHTML="fausse la reponse correcte est 27";
+    	}
+    	function ee4()
+    	{
+    		if (document.getElementById('eq4').value==6)
+    			document.getElementById('e4').innerHTML="correcte";
+    		else
+    			document.getElementById('e4').innerHTML="fausse la reponse correcte est 6";
+    	}
+    	function ee5()
+    	{
+    		if (document.getElementById('eq5').value==7)
+    			document.getElementById('e5').innerHTML="correcte";
+    		else
+    			document.getElementById('e5').innerHTML="fausse la reponse correcte est 7";
+    	}
+    	function ee6()
+    	{
+    		if (document.getElementById('eq6').value==-12)
+    			document.getElementById('e6').innerHTML="correcte";
+    		else
+    			document.getElementById('e6').innerHTML="fausse la reponse correcte est -12";
+    	}
+    	function ee7()
+    	{
+    		if (document.getElementById('eq7').value==27)
+    			document.getElementById('e7').innerHTML="correcte";
+    		else
+    			document.getElementById('e7').innerHTML="fausse la reponse correcte est 27";
+    	}
+    	function ee8()
+    	{
+    		if (document.getElementById('eq8').value==10)
+    			document.getElementById('e8').innerHTML="correcte";
+    		else
+    			document.getElementById('e8').innerHTML="fausse la reponse correcte est 10";
+    	}
+    	function ee9()
+    	{
+    		if (document.getElementById('eq9').value==-2)
+    			document.getElementById('e9').innerHTML="correcte";
+    		else
+    			document.getElementById('e9').innerHTML="fausse la reponse correcte est -2";
+    	}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EXERCICES</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="MAPAGE.CSS">
+</head>
+<body>
+	<header class="hea">
+		<h1>Les équations</h1>
+
+			
+
+			<ul class="ac">
+			<li class="ho"><a class="lien1" href="index.HTML">Home</a></li>
+			<li class="ho">
+
+				<a class="lien1" href="#">Cours</a>
+				<ul class="cour">
+					<li><a href="1er.html">Équations au 1er Degré</a></li>
+					<li><a href="2eme.html">Équations au 2eme Degré</a></li>
+					<li><a href="2innc.html">Équations à 2 inconnues</a></li>
+				</ul>
+
+			</li>
+
+
+			<li class="ho"><a class="lien1" href="#">Exercices</a>
+				<ul class="cour">
+					<li><a href="1ex.html">Équations au 1er Degré</a></li>
+					<li><a href="2ex.html">Équations au 2eme Degré</a></li>
+					<li><a href="3ex.html">Équations à 2 inconnues</a></li>
+				</ul>
+			</li>
+
+			<li class="ho"><a class="lien1" href="#">Contact</a>
+			<ul class="cour">
+					<li><a href="https://www.facebook.com/">FACEBBOK</a></li>
+					<li><a href="https://www.instagram.com/">INSTAGRAM</a></li>
+					<li><a href="https://www.youtube.com/">YOUTUBE</a></li>
+				</ul>
+			</li>
+		</ul>
+
+	</header><br><br><br><br>
+	<h1 style="color:#73264d;text-align: center;">Exercices:</h1><br><br><br><br>
+	<form name="AA">
+		<div>x² - 3x + 4 = 0 :</div><br>{1/4}<input type="radio" name="sf" value="1/4">1<input type="radio"  name="sf" value="1">l'ensemble vide<input type="radio"  name="sf" value="l'ensemble vide"><br><br>
+		<input type="button" onclick="eq21()"  value="correction"  style="background-color: #9999ff" ><p id="e21"></p><br>
+     </form>
+      <form name="BB">
+		<div>6x² - x -1 = 0 :</div><br>{1/2;-1/3}<input type="radio"  name="sf" value="1/2;-1/3">{1/6;1/2}<input type="radio"  name="sf" value="1/6;1/2">l'ensemble vide<input type="radio" name="sf" value="l'ensemble vide"><br><br>
+		<input type="button" onclick="eq22()"  value="correction"  style="background-color: #9999ff" ><p id="e22"></p><br>
+		</form>
+        <form name="CC">
+		<div>3x² + x + 1 = 0 :</div><br>{-3}<input type="radio" name="sf" value="-3">{-3;3}<input type="radio"  name="sf" value="1">l'ensemble vide<input type="radio"  name="sf" value="l'ensemble vide"><br><br>
+		<input type="button" onclick="eq23()"  value="correction"  style="background-color: #9999ff" ><p id="e23"></p><br>
+	    </form>
+	    <div class="fix">Realiser par:chaimae bouyarmane</div>
+	<script type="text/javascript">
+		function eq21()
+    	{
+    		if (window.document.forms[0].elements['sf'].value=="l'ensemble vide")
+    			document.getElementById('e21').innerHTML="correcte";
+    		else
+    			document.getElementById('e21').innerHTML="fausse la reponse correcte est l'ensemble vide";
+    	}
+    	function eq22()
+    	{
+    		if (window.document.forms[1].elements['sf'].value=="1/2;-1/3")
+    			document.getElementById('e22').innerHTML="correcte";
+    		else
+    			document.getElementById('e22').innerHTML="fausse la reponse correcte est {1/2;-1/3}";
+    	}
+    	function eq23()
+    	{
+    		if (window.document.forms[2].elements['sf'].value=="l'ensemble vide")
+    			document.getElementById('e23').innerHTML="correcte";
+    		else
+    			document.getElementById('e23').innerHTML="fausse la reponse correcte est l'ensemble vide";
+    	}
+	</script>
+
+</body>
+</html>
